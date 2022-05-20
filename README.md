@@ -23,10 +23,6 @@ In this program you as a user will choose a 3. a side team and go up aginst anot
     https://github.com/Razze420/Lag-uttagning
 ```
 
-```cmd
-2. import random
-``` Skriver imprt random
-
 ## Usage
 
 <img width="503" alt="image" src="https://user-images.githubusercontent.com/95741634/169517962-49128092-aba1-4d78-9f68-68960674c26d.png">
