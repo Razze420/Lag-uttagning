@@ -21,7 +21,9 @@ In this program you as a user will choose a 3. a side team and go up aginst anot
 1. klona repot
 ```cmd
     https://github.com/Razze420/Lag-uttagning
+```
 
+```cmd
 2. import random
 ``` Skriver imprt random
 
@@ -35,11 +37,8 @@ In this program you as a user will choose a 3. a side team and go up aginst anot
 <img width="296" alt="image" src="https://user-images.githubusercontent.com/95741634/169518016-947a3a4d-6b12-4051-9ad6-9ede3ce8c482.png">
 
 
-***Visa gärna, genom ett kodblock från din konsol, eller en bild, hur en exempelkörning kan gå till.***
-
 ## To do/Roadmap (Att göra/Plan)
 
-***Det kan vara nyttigt att få andra som läser om projektet att få veta vad du saknar just nu i programmet. Gör detta gärna genom en lista där färdiga saker strukits över.***
 
 
 ## Changelog
