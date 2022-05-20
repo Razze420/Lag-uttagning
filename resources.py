@@ -70,13 +70,20 @@ def create_player(available_players : list):
             print(j, player.name)
         choice = input("Pick an index: ")
         picked_players.append(available_players.pop(int(choice)))
-    #This loop works as every time the user picks a player the players is added in a list and is taken away from the list with every on else
-        
+    """_summary_ This code pops out the players the user have picked and adds the picked players in a list
+
+    Returns:
+        _type_: string  _description_ It 
+    """            
 
     print("===== YOUR TEAM =====")
     for player in picked_players:
         print(player)
-    #Here i just print every player the user have picked
+    """_summary_ Here I just print the players the user have picked
+
+    Returns:
+        _type_: String _description_ Printing from a list
+    """
     
     return picked_players
     
@@ -86,13 +93,17 @@ def load_opponents(available_players : list):
     for _ in range(3):
         this_player = random.choice(available_players)
         opponents.append(this_player)
+    """_summary_ Here I make a list for the opponents team
 
-    return Team("Tuffa gänget", opponents)
+    Returns:
+        _type_: String _description_ In form of a list
+    """
+    return Team("Maxi FC", opponents)
 
 def load_team(picked_players):
     team = create_player(picked_players)
 
-    return Team("ditt lag", team)  
+    return Team("The beasts IF", team)  
 
 def fight(team: Team, opponents: Team):
     tot_stats_team = team.combat_point + team.defense_point
@@ -100,9 +111,11 @@ def fight(team: Team, opponents: Team):
     if tot_stats_team < tot_stats_opponents:
         return "You lost to ", Team(opponents)
     elif tot_stats_team > tot_stats_opponents:
-        return "You won!!\nCongrats!"
+        return Team(team), "won!!\nCongrats!"
     elif tot_stats_team == tot_stats_opponents:
         return "There was unfortunantly no winner:("
+    """_summary_ This is the fight function where were we just calculate who thenwinnner will be
+    """
 
 
 def main():
